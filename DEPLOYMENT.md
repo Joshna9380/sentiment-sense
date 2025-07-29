@@ -2,7 +2,7 @@
 
 This guide provides comprehensive instructions for deploying the SentimentSense application to production.
 
-## 🚀 Production Deployment
+##  Production Deployment
 
 ### Prerequisites
 - Python 3.13+
@@ -281,7 +281,7 @@ tail -f app.log  # Application logs
 - [ ] Backup strategy in place
 - [ ] Documentation updated
 
-## 🎯 Deployment Platforms
+##  Deployment Platforms
 
 ### Cloud Platforms
 - **Heroku**: Easy deployment with git push
