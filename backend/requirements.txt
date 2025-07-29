@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+vaderSentiment
+python-multipart
+pandas 
