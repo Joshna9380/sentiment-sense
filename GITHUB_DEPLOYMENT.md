@@ -2,7 +2,7 @@
 
 This guide will help you deploy your SentimentSense project to GitHub using the web interface.
 
-## 🚀 Step-by-Step GitHub Deployment
+##  Step-by-Step GitHub Deployment
 
 ### Step 1: Create GitHub Repository
 
@@ -114,7 +114,7 @@ git remote add origin https://github.com/yourusername/sentimentsense.git
 git push -u origin main
 ```
 
-## 📋 Pre-Upload Checklist
+##  Pre-Upload Checklist
 
 Before uploading to GitHub, ensure you have:
 
@@ -128,7 +128,7 @@ Before uploading to GitHub, ensure you have:
 - [x] **No sensitive data** - No API keys or passwords
 - [x] **No large files** - No node_modules or build folders
 
-## 🎯 Post-Upload Steps
+##  Post-Upload Steps
 
 After uploading to GitHub:
 
@@ -144,7 +144,7 @@ After uploading to GitHub:
 4. **Create releases** - Tag important versions
 5. **Add to portfolio** - Link to your GitHub repository
 
-## 🌐 Live Demo Deployment
+##  Live Demo Deployment
 
 After GitHub deployment, you can create a live demo:
 
@@ -163,7 +163,7 @@ After GitHub deployment, you can create a live demo:
 2. **Connect your GitHub repository**
 3. **Deploy backend and frontend separately**
 
-## 📊 Repository Analytics
+##  Repository Analytics
 
 After deployment, you can track:
 - **Repository views** - How many people visit your repo
@@ -171,14 +171,14 @@ After deployment, you can track:
 - **Stars** - How many people like your project
 - **Forks** - How many people copy your project
 
-## 🎉 Success!
+##  Success!
 
 Once uploaded, your SentimentSense project will be:
-- ✅ **Publicly accessible** on GitHub
-- ✅ **Professional portfolio piece**
-- ✅ **Ready for collaboration**
-- ✅ **Deployable to live platforms**
-- ✅ **Documented and tested**
+-  **Publicly accessible** on GitHub
+-  **Professional portfolio piece**
+-  **Ready for collaboration**
+-  **Deployable to live platforms**
+-  **Documented and tested**
 
 Your project URL will be: `https://github.com/yourusername/sentimentsense`
 
