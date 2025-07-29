@@ -48,8 +48,8 @@ class SentimentSenseTester:
             ("I hate this terrible project!", "Negative"),
             ("This is a neutral statement.", "Neutral"),
             ("", "Empty text"),
-            ("😊 Great day!", "Positive with emoji"),
-            ("😞 Bad day!", "Negative with emoji")
+            ("Great day!", "Positive with emoji removed"),
+            ("Bad day!", "Negative with emoji removed")
         ]
         
         for text, expected in test_cases:

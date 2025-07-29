@@ -40,13 +40,13 @@ pinnacle/
 │   ├── main.py                  # ⚡ FastAPI application
 │   └── requirements.txt         # 📦 Python dependencies
 └── frontend/
-    ├── package.json             # 📦 Node.js dependencies
-    ├── tailwind.config.js       # 🎨 Tailwind configuration
-    ├── postcss.config.js        # 🔧 PostCSS configuration
+    ├── package.json             # Node.js dependencies
+    ├── tailwind.config.js       # Tailwind configuration
+    ├── postcss.config.js        # PostCSS configuration
     └── src/
-        ├── App.js               # ⚛️ Main React component
-        ├── api.js               # 🔌 API integration
-        └── index.css            # 🎨 Tailwind CSS styles
+        ├── App.js               # Main React component
+        ├── api.js               # API integration
+        └── index.css            # Tailwind CSS styles
 ```
 
 ## 🎯 **Ready for GitHub Upload**

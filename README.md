@@ -2,7 +2,7 @@
 
 A full-stack sentiment analysis application built with FastAPI and React that provides real-time text sentiment analysis and batch CSV processing capabilities.
 
-## 🌟 Features
+## Features
 
 - **Real-time Text Analysis**: Analyze sentiment of individual text inputs
 - **Batch CSV Processing**: Upload CSV files for bulk sentiment analysis
@@ -11,7 +11,7 @@ A full-stack sentiment analysis application built with FastAPI and React that pr
 - **RESTful API**: FastAPI backend with comprehensive error handling
 - **VADER Sentiment Analysis**: Industry-standard sentiment analysis algorithm
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **FastAPI**: Modern, fast web framework for building APIs
@@ -26,7 +26,7 @@ A full-stack sentiment analysis application built with FastAPI and React that pr
 - **Tailwind CSS**: Utility-first CSS framework
 - **Axios**: HTTP client for API communication
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.13+
@@ -61,13 +61,12 @@ npm start
 
 The frontend will be available at `http://localhost:3000`
 
-## 🚀 Usage
+## Usage
 
 ### Text Sentiment Analysis
 1. Open the application in your browser
 2. Enter text in the text area
 3. Click "Analyze Text"
-4. View sentiment results with confidence scores and charts
 
 ### CSV Batch Processing
 1. Prepare a CSV file with a "text" column
@@ -130,7 +129,7 @@ Form data:
 }
 ```
 
-## 📊 Sentiment Analysis Details
+## Sentiment Analysis Details
 
 The application uses VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis:
 
@@ -140,7 +139,7 @@ The application uses VADER (Valence Aware Dictionary and sEntiment Reasoner) sen
 
 Confidence scores range from 0 to 1, with higher values indicating stronger sentiment.
 
-## 🧪 Testing
+## Testing
 
 ### Backend Testing
 ```bash
@@ -157,7 +156,7 @@ curl.exe -X POST "http://localhost:8000/analyze_csv" -F "file=@test.csv"
 - Test CSV upload functionality
 - Verify responsive design on different screen sizes
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 Create a `.env` file in the backend directory:
@@ -180,7 +179,7 @@ app.add_middleware(
 )
 ```
 
-## 📁 Project Structure
+## Project Structure
 ```
 pinnacle/
 ├── backend/
@@ -197,7 +196,7 @@ pinnacle/
 └── README.md               # This file
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Build
 ```bash
@@ -221,7 +220,7 @@ COPY . .
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -235,7 +234,7 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 - `422 Validation Error`: Missing required form data
 - `404 Not Found`: Incorrect API endpoint
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -243,11 +242,11 @@ CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [VADER Sentiment Analysis](https://github.com/cjhutto/vaderSentiment)
 - [FastAPI](https://fastapi.tiangolo.com/)
