@@ -184,4 +184,4 @@ Your project URL will be: `https://github.com/yourusername/sentimentsense`
 
 ---
 
-**🚀 Ready to showcase your amazing SentimentSense project to the world!** 
+** Ready to showcase your amazing SentimentSense project to the world!** 
